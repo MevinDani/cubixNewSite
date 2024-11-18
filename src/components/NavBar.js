@@ -26,7 +26,7 @@ const NavBar = () => {
 
                 <div className='NavLinksCont'>
 
-                    <div className='NavLinks'>Home</div>
+                    <div className={`NavLinks ${location.pathname === "/" ? "active" : ""}`}>Home</div>
                     <div className='NavLinks'>About Us</div>
                     <div className='NavLinks'>Products</div>
                     <div className='NavLinks'>Services</div>
@@ -58,7 +58,7 @@ const NavBar = () => {
                     </div>
 
                     <div className='NavBarMenuItemsCont'>
-                        <div className='NavBarMenuItems' onClick={() => {
+                        <div className={`NavBarMenuItems ${location.pathname === "/" ? "active" : ""}`} onClick={() => {
                             navigate('/')
                             setShowNavMenu(false)
                         }}>Home</div>

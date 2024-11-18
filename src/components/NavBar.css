@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
+    padding: 15px 0px;
     background-color: #fdfdfd;
     color: white;
 }
@@ -64,6 +64,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.NavLinks.active {
+    color: #d13228;
+}
+
+.NavBarMenuItems.active {
+    color: #d13228;
 }
 
 
