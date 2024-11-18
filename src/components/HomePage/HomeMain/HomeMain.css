@@ -1,0 +1,49 @@
+.HomeMainWrap {
+    display: flex;
+    justify-content: flex-start;
+    /* width: 100%; */
+    padding: 50px 4% 0px;
+    height: 450px;
+
+    background: linear-gradient(to top, #e7e7e7, #fafafa);
+}
+
+.HomeMainCont {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 8px;
+}
+
+.HomeMainText {
+    color: #314ca3;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.HomeMainScheduleCont {
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeMainScheduleSubText {
+    font-size: 16px;
+    color: black;
+}
+
+.HomeMainScheduleButtonCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.HomeMainScheduleButton {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #314ca3;
+    color: white;
+}

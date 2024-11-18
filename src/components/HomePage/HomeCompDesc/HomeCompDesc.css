@@ -1,0 +1,75 @@
+.HomeCompDescWrap {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* padding: 50px 4% 0px; */
+    /* height: 450px; */
+
+    background: linear-gradient(to right, #e7eff6, #f7f8f9);
+}
+
+.HomeCompImgCont {
+    /* width: 25%; */
+}
+
+.HomeCompImg {
+    width: 400px;
+}
+
+.HomeCompDescCont {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 12px 50px 80px;
+
+    gap: 10px;
+
+    font-size: 18px;
+}
+
+.CbxBoldText {
+    font-weight: bold;
+}
+
+.HomeCompDesc {
+    line-height: 24px;
+    margin: 12px 0px;
+}
+
+.HomeCompDescReadMoreCont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HomeCompDescButtonCont {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    padding: 12px 8px;
+    color: #2469b3;
+    font-weight: bold;
+}
+
+@media (max-width:940px) {
+    .HomeCompDesc {
+        font-size: 16px;
+        margin: 6px 0px;
+    }
+
+    .HomeCompDescButtonCont {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:840px) {
+    .HomeCompDescWrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HomeCompDescCont {
+        padding: 18px;
+    }
+}

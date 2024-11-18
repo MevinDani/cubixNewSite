@@ -1,0 +1,82 @@
+.NavBarWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #fdfdfd;
+    color: white;
+}
+
+.NavLogo {
+    width: 160px;
+}
+
+.NavLinksCont {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    font-weight: 600;
+}
+
+.NavLinks:hover {
+    cursor: pointer;
+    color: #d13228;
+}
+
+.NavBarRightMobItem {
+    display: none;
+}
+
+.NavBarMenu {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+    top: 10px;
+    padding: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    z-index: 20;
+}
+
+.NavBarMenu>div {
+    color: black;
+}
+
+.NavBarMenuCloseCont {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px;
+}
+
+.NavBarMenuItemsCont {
+    padding: 50px;
+}
+
+.NavBarMenuItems {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media (max-width:1040px) {
+    .NavLinksCont {
+        display: none;
+    }
+
+    .NavBarRightMobItem {
+        display: flex;
+        gap: 46px;
+        align-items: center;
+        padding-right: 12px;
+    }
+}

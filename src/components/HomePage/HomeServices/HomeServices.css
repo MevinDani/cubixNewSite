@@ -1,0 +1,20 @@
+.HomeServicesWrap {
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px 4% 0px;
+    background: linear-gradient(to bottom, #fd6b22, #fe6c23);
+}
+
+.HomeServicesHeadWrap {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.HomeServicesHeadCont {
+    padding: 20px 8px;
+    color: white;
+    border-bottom: 4px solid white;
+    font-size: 22px;
+    font-weight: bold;
+}
