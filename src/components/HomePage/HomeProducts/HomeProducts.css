@@ -9,3 +9,10 @@
     background-color: white;
     flex-wrap: wrap;
 }
+
+@media (max-width:864px) {
+    .HomeProductImg {
+        width: 120px;
+
+    }
+}

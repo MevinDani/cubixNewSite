@@ -4,6 +4,7 @@ import HomeMain from '../components/HomePage/HomeMain/HomeMain'
 import HomeCompDesc from '../components/HomePage/HomeCompDesc/HomeCompDesc'
 import HomeProducts from '../components/HomePage/HomeProducts/HomeProducts'
 import HomeServices from '../components/HomePage/HomeServices/HomeServices'
+import HomeCarousel from '../components/HomePage/HomeCarousel/HomeCarousel'
 
 const HomePage = () => {
     return (
@@ -17,6 +18,9 @@ const HomePage = () => {
 
             {/* HomeProducts */}
             <HomeProducts />
+
+            {/* HomeCarousel */}
+            <HomeCarousel />
 
             {/* HomeServices */}
             <HomeServices />

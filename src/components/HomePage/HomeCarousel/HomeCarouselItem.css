@@ -1,0 +1,87 @@
+.HomeCarouselItemWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 4%;
+
+    background: linear-gradient(to bottom, #f2edda, #f2edd9);
+
+    height: 350px;
+}
+
+.HomeCarouselCardHead {
+    padding: 12px 0px;
+    font-size: 20px;
+    color: #314ca3;
+}
+
+.HomeCarouselCardCont {
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f6;
+    border-radius: 18px;
+}
+
+.HomeCarouselCardImg {
+    width: 230px;
+    height: 100%;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.HomeCarouselCardDescCont {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeCarouselCardDescText {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.HomeCarouselCardReadMoreButtonCont {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.HomeCarouselReadMoreButton {
+    background-color: #314ca3;
+    color: white;
+    padding: 12px 8px;
+    margin-top: 24px;
+}
+
+.HomeCarouselCardNavButtonWrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.HomeCarouselNavButtonCont {
+    padding: 12px 6px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+@media (max-width:640px) {
+    .HomeCarouselCardCont {
+        flex-direction: column;
+    }
+
+    .HomeCarouselItemWrap {
+        height: max-content;
+    }
+
+    .HomeCarouselCardImg {
+        width: 100%;
+        height: 300px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 18px;
+
+        object-fit: fill;
+        aspect-ratio: 9;
+    }
+}

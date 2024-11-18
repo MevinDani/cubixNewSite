@@ -1,7 +1,6 @@
 .HomeServicesWrap {
     display: flex;
     flex-direction: column;
-
     padding: 50px 4% 0px;
     background: linear-gradient(to bottom, #fd6b22, #fe6c23);
 }
@@ -17,4 +16,60 @@
     border-bottom: 4px solid white;
     font-size: 22px;
     font-weight: bold;
+}
+
+.HomeServicesItemCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+.HomeServicesItem {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.HomeServieIcon {
+    width: 60px;
+    height: 60px;
+}
+
+.HomeServiceDescCont {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px;
+    color: white;
+}
+
+.HomeServiceItemHead {
+    width: fit-content;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+    padding: 8px 0px;
+}
+
+.HomeServiceDescText {
+    line-height: 22px;
+    padding: 8px 0px;
+    font-size: 14px;
+}
+
+.HomeServiceImgCont {
+    padding: 8px 0px;
+}
+
+@media (max-width:864px) {
+    .HomeServicesItemCont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HomeServicesItem {
+        width: 100%;
+    }
 }

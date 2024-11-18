@@ -12,22 +12,22 @@ const HomeProducts = () => {
         <div className='HomeProductsWrap'>
 
             <div>
-                <img src={XpertImg} alt="" />
+                <img className='HomeProductImg' src={XpertImg} alt="" />
             </div>
             <div>
-                <img src={bondImg} alt="" />
+                <img className='HomeProductImg' src={bondImg} alt="" />
             </div>
             <div>
-                <img src={pulseImg} alt="" />
+                <img className='HomeProductImg' src={pulseImg} alt="" />
             </div>
             <div>
-                <img src={ctrixImg} alt="" />
+                <img className='HomeProductImg' src={ctrixImg} alt="" />
             </div>
             <div>
-                <img src={cwheelsImg} alt="" />
+                <img className='HomeProductImg' src={cwheelsImg} alt="" />
             </div>
             <div>
-                <img src={crealImg} alt="" />
+                <img className='HomeProductImg' src={crealImg} alt="" />
             </div>
         </div>
     )
