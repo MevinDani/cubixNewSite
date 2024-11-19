@@ -1,11 +1,11 @@
 import React from 'react'
 import './HomeProducts.css'
-import XpertImg from '../../../images/xprtDemo.png'
-import bondImg from '../../../images/bondDemo.png'
-import pulseImg from '../../../images/pulseDemo.png'
-import ctrixImg from '../../../images/ctrixDemo.png'
-import cwheelsImg from '../../../images/cwheelsDemo.png'
-import crealImg from '../../../images/crealDemo.png'
+import XpertImg from '../../../images/XpertLogoN.png'
+import bondImg from '../../../images/bondTimeLogo.png'
+import pulseImg from '../../../images/PulseLogo.png'
+import ctrixImg from '../../../images/CtrixLogo.png'
+import cwheelsImg from '../../../images/CwheelsLogo.png'
+import crealImg from '../../../images/CrealLogo.png'
 
 const HomeProducts = () => {
     return (

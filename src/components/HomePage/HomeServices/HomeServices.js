@@ -1,9 +1,9 @@
 import React from 'react'
 import './HomeServices.css'
-import PcImg from '../../../images/pcImg.png'
-import MobImg from '../../../images/mobImg.png'
-import WebImg from '../../../images/webImg.png'
-import Cctv from '../../../images/cctvImg.png'
+import PcImg from '../../../images/pcSvg.svg'
+import MobImg from '../../../images/mobSvg.svg'
+import WebImg from '../../../images/webSvg.svg'
+import Cctv from '../../../images/cctvSvg.svg'
 
 const HomeServices = () => {
     return (

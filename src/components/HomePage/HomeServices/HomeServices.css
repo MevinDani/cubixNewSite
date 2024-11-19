@@ -2,7 +2,12 @@
     display: flex;
     flex-direction: column;
     padding: 50px 4% 0px;
-    background: linear-gradient(to bottom, #fd6b22, #fe6c23);
+    /* background: linear-gradient(to bottom, #fd6b22, #fe6c23); */
+
+    background: radial-gradient(circle,
+            #FFA562,
+            #FD6B22);
+
 }
 
 .HomeServicesHeadWrap {
@@ -34,8 +39,8 @@
 }
 
 .HomeServieIcon {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    /* height: 100px; */
 }
 
 .HomeServiceDescCont {
@@ -71,5 +76,11 @@
 
     .HomeServicesItem {
         width: 100%;
+    }
+}
+
+@media (max-width:460px) {
+    .HomeServieIcon {
+        width: 60px;
     }
 }

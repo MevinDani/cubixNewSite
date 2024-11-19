@@ -10,6 +10,10 @@
     flex-wrap: wrap;
 }
 
+.HomeProductImg {
+    width: 160px;
+}
+
 @media (max-width:864px) {
     .HomeProductImg {
         width: 120px;

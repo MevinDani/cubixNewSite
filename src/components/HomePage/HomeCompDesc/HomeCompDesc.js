@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomeCompDesc.css'
-import CityDemo from '../../../images/cityDemo.png'
+import CityDemo from '../../../images/tower.png'
 
 import { BsArrowRightCircle } from "react-icons/bs";
 

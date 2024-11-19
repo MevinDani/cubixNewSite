@@ -14,6 +14,9 @@
 
 .HomeCompImg {
     width: 400px;
+    height: 100%;
+
+    object-fit: cover;
 }
 
 .HomeCompDescCont {
@@ -71,5 +74,11 @@
 
     .HomeCompDescCont {
         padding: 18px;
+    }
+}
+
+@media (max-width:460px) {
+    .HomeCompImg {
+        width: 100%;
     }
 }
