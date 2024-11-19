@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './HomeMain.css'
 import Stand from '../../../images/stand2.svg'
 import Platform from '../../../images/platform.svg'
@@ -9,8 +9,20 @@ import BarGraph from '../../../images/Bar Graph 1.svg'
 import Computer from '../../../images/computeer.png'
 
 
-
 const HomeMain = () => {
+
+    const [showFirstSet, setShowFirstSet] = useState(true);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setShowFirstSet((prev) => !prev);
+        }, 4000); // 4 seconds interval
+        return () => clearInterval(interval);
+    }, []);
+
+
+    console.log('showFirstSet', showFirstSet)
+
     return (
         <div className='HomeMainWrap'>
 
@@ -68,6 +80,45 @@ const HomeMain = () => {
                     <img className='PlatformImg' src={Platform} alt="" />
                 </div>
 
+            </div>
+
+            <div className='HomeMainMobImgCont'>
+
+                {
+                    showFirstSet ? (
+                        <>
+
+                            <div className='PhoneMobCont fade-in'>
+                                <img className='PhoneMobImg' src={phone} alt="" />
+                            </div>
+
+                            <div className='LapMobCont fade-in'>
+                                <img className='LapMobImg' src={Computer} alt="" />
+                            </div>
+                        </>
+                    ) :
+                        <>
+                            <div className='DonutMobImgCont fade-in'>
+                                <img className='DonutMobImg' src={Donut} alt="" />
+                            </div>
+
+
+
+                            <div className='BarGrapMobhCont fade-in'>
+                                <img className='BarGrapMobhImg' src={BarGraph} alt="" />
+                            </div>
+
+                        </>
+                }
+
+
+                <div className='StandMobCont'>
+                    <img className='StandMobImg' src={Stand} alt="" />
+                </div>
+
+                <div className='PlatFormMobCont'>
+                    <img className='PlatFormImgCont' src={Platform} alt="" />
+                </div>
             </div>
         </div>
     )

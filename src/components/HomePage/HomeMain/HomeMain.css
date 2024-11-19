@@ -133,6 +133,12 @@
     width: 350px;
 }
 
+.HomeMainMobImgCont {
+    display: none;
+}
+
+
+
 /* Hide the background image on devices below 960px */
 
 @media (max-width:1020px) {
@@ -145,4 +151,326 @@
     }
 }
 
-@media (max-width: 960px) {}
+@media (max-width: 860px) {
+    .HomeMainImgCont {
+        display: none;
+    }
+
+    .HomeMainWrap {
+        flex-direction: column;
+    }
+
+    .HomeMainCont {
+        width: 100%;
+    }
+
+    .HomeMainMobImgCont {
+        display: block;
+        position: relative;
+    }
+
+    .StandMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 42%;
+    }
+
+    .StandMobImg {
+        width: 300px;
+    }
+
+    .PlatFormMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 20%;
+    }
+
+    .PlatFormImgCont {
+        width: 200px;
+    }
+
+
+    .PhoneMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 20%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .PhoneMobImg {
+        width: 200px;
+    }
+
+    .LapMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 50%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .DonutMobImgCont {
+        position: absolute;
+        bottom: 100px;
+        left: 20%;
+        z-index: 5;
+    }
+
+    .BarGrapMobhCont {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        z-index: 5;
+    }
+
+
+    .fade-in {
+        opacity: 1 !important;
+        transform: scale(1) !important;
+
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .LapMobImg {
+        width: 300px;
+    }
+
+}
+
+@media (max-width:640px) {
+
+    .StandMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 36%;
+    }
+
+    .StandMobImg {
+        width: 280px;
+    }
+
+    .PlatFormMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 10%;
+    }
+
+    .PlatFormImgCont {
+        width: 180px;
+    }
+
+
+    .PhoneMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 10%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .PhoneMobImg {
+        width: 160px;
+    }
+
+    .LapMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 40%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .LapMobImg {
+        width: 250px;
+    }
+
+    .DonutMobImgCont {
+        position: absolute;
+        bottom: 100px;
+        left: 10%;
+        z-index: 5;
+    }
+
+    .DonutMobImg {
+        width: 180px;
+    }
+
+    .BarGrapMobhCont {
+        position: absolute;
+        bottom: 100px;
+        left: 44%;
+        z-index: 5;
+    }
+
+    .BarGrapMobhImg {
+        width: 250px;
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .StandMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 36%;
+    }
+
+    .StandMobImg {
+        width: 280px;
+    }
+
+    .PlatFormMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 10%;
+    }
+
+    .PlatFormImgCont {
+        width: 180px;
+    }
+
+
+    .PhoneMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 10%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .PhoneMobImg {
+        width: 160px;
+    }
+
+    .LapMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 44%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .LapMobImg {
+        width: 250px;
+    }
+
+    .DonutMobImgCont {
+        position: absolute;
+        bottom: 100px;
+        left: 10%;
+        z-index: 5;
+    }
+
+    .DonutMobImg {
+        width: 140px;
+    }
+
+    .BarGrapMobhCont {
+        position: absolute;
+        bottom: 100px;
+        left: 44%;
+        z-index: 5;
+    }
+
+    .BarGrapMobhImg {
+        width: 200px;
+    }
+
+}
+
+@media (max-width:410px) {
+
+    .StandMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 30%;
+    }
+
+    .StandMobImg {
+        width: 280px;
+    }
+
+    .PlatFormMobCont {
+        position: absolute;
+        bottom: 0px;
+        left: 5%;
+    }
+
+    .PlatFormImgCont {
+        width: 180px;
+    }
+
+
+    .PhoneMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 10%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .PhoneMobImg {
+        width: 120px;
+    }
+
+    .LapMobCont {
+        position: absolute;
+        bottom: 55px;
+        left: 50%;
+        z-index: 5;
+
+        /* opacity: 0; */
+        transform: scale(0.9);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .LapMobImg {
+        width: 220px;
+    }
+
+    .DonutMobImgCont {
+        position: absolute;
+        bottom: 100px;
+        left: 10%;
+        z-index: 5;
+    }
+
+    .DonutMobImg {
+        width: 120px;
+    }
+
+    .BarGrapMobhCont {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        z-index: 5;
+    }
+
+    .BarGrapMobhImg {
+        width: 160px;
+    }
+
+}
